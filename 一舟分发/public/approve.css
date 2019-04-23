@@ -1,0 +1,67 @@
+.suss{
+    width: 62.5%;
+    margin: auto;
+    height: 550px;
+    border:1px dashed rgba(200,200,200,1);
+    text-align: center;
+    min-width: 662px;
+}
+.suss_box{
+    width:62.5%;
+    max-width: 1200px;
+    margin: auto; 
+    margin-top: 88px  ;
+    margin-bottom: 163px
+}
+.suss p{
+    font-size: 14px;
+    color:#ABABAB;
+    margin-bottom: 10px
+}
+.span1{
+    width:15px;
+height:15px;
+background:rgba(200,200,200,1);
+border-radius:50%;
+}
+.span2{
+    width:137px;
+height:3px;
+background:rgba(200,200,200,1);
+}
+.span3{
+    width:30px;
+height:30px;
+background:rgba(58,153,253,1);
+border-radius:50%;
+color: #fff;
+line-height: 30px
+}
+.suss_box1{
+    display: flex;
+    justify-content: space-between;
+    width: 66%;
+    margin: auto;
+    margin-top: 20px;
+    flex-wrap: wrap
+}
+.suss_box1 div{
+    margin: auto 10px
+}
+.geren{
+    background: url("img/认证/jx.png") center;
+    background-size: 100% 100%;
+    width: 50%;
+    padding-bottom: 50px
+}
+.qiye{
+    background: url("img/认证/jx2.png") center;
+    background-size: 100% 100%;
+    width: 50%;
+    padding-bottom: 50px;
+    margin-left: 60px
+}
+.db{
+    position: absolute;
+    bottom: 0
+}

@@ -1,0 +1,63 @@
+.top_1{
+    
+    width: 97%;
+    margin: auto;
+    max-width: 1607px;
+    padding-top: 37px;
+    
+}
+.top_item{
+    width: 97%;
+    background: url("img/应用介绍页/bg1.png") no-repeat;
+    margin: auto;
+    height: 249px
+}
+.top_1 p{
+    left: 60px;
+    position: relative;
+    top: -19px;
+    font-size: 14px;
+    color:rgba(179,179,179,1);
+}
+.top_1 span{
+    position: relative;
+    top:-20px;
+    left: 20px;
+}
+.top_2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    max-width: 1507px;
+    margin-left: -20px;
+}
+.top_2 div p{
+    font-size:16px;
+    color:rgba(145,145,145,1);
+    margin-top: 10px
+}
+.top_2 div{
+    text-align: center
+}
+.bottom_list{
+    width: 100%;
+    margin: 0;
+    height: 249px
+}
+.details_right{
+    height: 930px
+}
+.leftlist{
+    background: url("img/应用介绍页/blue.png") no-repeat;
+    width: 34%;
+    height: 131px;
+    margin-right: 75px
+}
+.rightlist{
+    background: url("img/应用介绍页//ls.png") no-repeat;
+    width: 34%;
+    height: 131px;
+}
+.dblist{
+    display: flex
+}

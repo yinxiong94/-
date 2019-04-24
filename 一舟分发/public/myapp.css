@@ -1,0 +1,86 @@
+.top{
+    width: 97%;
+    max-width: 1607px;
+    margin:auto;
+    display: flex;
+    justify-content: space-around
+}
+.top1{
+    background:url('img/我的应用页/551.png') no-repeat;
+    padding-top: 34px;
+    padding-left: 34px;
+    display: flex;
+    width: 48.7%;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    min-width: 523px;
+}
+.top1_1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.top2{
+    background: url("img/我的应用页/1.png") no-repeat;
+    width: 24%;
+    text-align: center;
+    min-width: 250px;
+}
+.top2 h1,.top3 h1{
+    margin-top: 126px;
+    font-size:20px;
+    font-weight:400;
+color:rgba(51,51,51,1);
+}
+.top2 p,.top3 p{
+    font-size:16px;
+    font-weight:400;
+    color:rgba(180,180,180,1);
+    margin-top: 10px
+}
+.top3{
+    background: url("img/我的应用页/2.png") no-repeat;
+    width: 24%;
+    text-align: center;
+    min-width: 250px;
+}
+.bottom{
+    display: flex;
+    line-height: 58px;
+    width: 97%;
+    margin: auto;
+    max-width: 1607px;
+    justify-content: space-between;
+    text-align: center
+}
+.bottom_item ul li div{
+    text-align: center;
+    line-height: 53px
+}
+.bottom_item ul li div img{
+    position: relative;
+    top:10px;
+    margin-right: 5px
+}
+.bottom_item ul{
+    min-width: 661px;
+}
+.bottom_list{
+    background: url("img/我的应用页/z1.png") no-repeat;
+    color:rgba(145,145,145,1);   
+    width: 97%;
+    margin: auto;
+    max-width: 1607px;
+}
+.xl{
+    position: absolute;
+    right: 5px;
+    background: url("img/我的应用页/xl.png");
+    padding:15px;
+    width: 226px;
+    box-sizing: border-box;
+    height: 325px;
+    top:61px
+}
+.grheader{
+    position: relative;
+}

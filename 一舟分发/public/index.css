@@ -5,6 +5,12 @@
     box-sizing: border-box;
     font-family:MicrosoftYaHei;
 }
+
+#app img{
+    /* 需要图片换行的话，可以设置display:block; */
+    display: block;
+    max-width: 100px;
+}
 .header_list{
     width: 100%;
     border-bottom: 1px solid red;

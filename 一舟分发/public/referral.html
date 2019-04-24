@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="personal_data.css">
+    <link rel="stylesheet" href="balance.css">
+    <link rel="stylesheet" href="myapp.css">
+    <link rel="stylesheet" href="referral.css">
+    <script src="js/jquery-3.2.1.js"></script>
+</head>
+<body>
+
+    <div class="grheader">
+        <div class="gr_item1">
+            <img src="img/个人资料/logo1.png" alt="">
+        </div>
+        <div class="gr_item2">
+            <div class="gr_item_1">
+                <img src="img/个人资料/back.png" alt="">
+            </div>
+            <div class="gr_item_2">            
+                <img src="img/个人资料/tx.png" alt="">
+            </div>  
+            <div class="gr_item_3">
+                <img src="img/个人资料/news.png" alt="">
+            </div>        
+        </div>
+        <div class="xl">
+            <div style="padding-bottom: 10px;border-bottom: 1px solid #ccc;width: 100%">
+                <img src="img/我的应用页/tx.png" alt="" style="width: 66px;height: 66px;margin-top: 15px">
+                <p style="position: absolute;top:34px;left: 90px">123456</p>
+                <p style="position: absolute;top:68px;left: 90px;font-size:16px;color:rgba(180,180,180,1);"><img src="img/我的应用页/经理.png" alt="">
+                个人版</p>
+            </div>
+            <div style="width:100%;padding-left:50px;background:url('img/我的应用页/ye.png') no-repeat 10px center;margin-top: 10px;font-size:16px;">余额￥<span style="font-size:16px;">0.00</span></div>
+            <div style="width:100%;padding-left:50px;background:url('img/我的应用页/sz.png') no-repeat 10px center;margin-top: 10px;font-size:16px;">账户设置</div>
+            <div style="width:100%;padding-left:50px;background:url('img/我的应用页/tz.png') no-repeat 10px center;margin-top: 10px;font-size:16px;">通知中心</div>
+            <div style="width:100%;padding-left:50px;background:url('img/我的应用页/tc.png') no-repeat 10px center;margin-top: 10px;font-size:16px;">退出</div>
+        </div>
+    </div>
+
+    <div class="details">
+        <div class="details_left">
+            <ul style="background: #fff">
+                <li style="background:url('img/个人资料/bg1.png')  no-repeat;line-height: 65px">
+                    <img src="img/个人资料/index.png" alt="" style="margin-left: 34px;margin-right: 20px">
+                    <span style="width:71px;
+                    height:18px;
+                    font-size:18px;
+                    font-family:MicrosoftYaHei;
+                    font-weight:400;
+                    color:rgba(91,173,242,1);
+                    line-height:28px;">我的应用</span>
+                </li>
+                <li class="sz">
+                    <img src="img/个人资料/sz.png" alt="" style="margin-left: 18px;margin-right: 20px">
+                    账户设置
+                </li>
+                <li style="text-align: center;margin-bottom: 50px">
+                    <input type="text" placeholder="搜索您的应用" style="background:url('img/个人资料/ss1.png') no-repeat 10% center ;border: 1px solid #ccc;border-radius: 15px;width: 228px;padding-left:66px;font-size: 16px;height: 30px">
+                </li>
+                <li style="margin-bottom: 30px">
+                    <img src="img/个人资料/jia.png" alt="" style="vertical-align:middle;margin-left: 34px;margin-right: 22px">
+                    <span style="width:115px;
+                    height:18px;
+                    font-size:18px;
+                    font-family:MicrosoftYaHei;
+                    font-weight:400;
+                    color:rgba(91,173,242,1);
+                    line-height:28px;">发布/更新应用</span>
+                </li>
+                <li style="vertical-align: middle;display: flex;line-height: 35px;margin-bottom: 30px">
+                    <span style="display: inline-block;background:url('img/个人资料/xb.png') no-repeat center;width: 25px;text-align: center;color: #fff;margin-left: 15px;margin-right: 15px">1</span>
+                    <img src="img/个人资料/xhs.png" alt="" style="margin-right: 15px">
+                    <span style="color:rgba(145,145,145,1);;">小红书APP</span>
+                </li>
+                <li style="vertical-align: middle;display: flex;line-height: 35px;margin-bottom: 30px">
+                        <span style="display: inline-block;background:url('img/个人资料/xb.png') no-repeat center;width: 25px;text-align: center;color: #fff;margin-left: 15px;margin-right: 15px">2</span>
+                        <img src="img/个人资料/wyy.png" alt="" style="margin-right: 15px">
+                        <span style="color:rgba(145,145,145,1);;">网易云音乐APP</span>
+                </li>
+                <li style="vertical-align: middle;display: flex;line-height: 35px;margin-bottom: 30px">
+                        <span style="display: inline-block;background:url('img/个人资料/xb.png') no-repeat center;width: 25px;text-align: center;color: #fff;margin-left: 15px;margin-right: 15px">3</span>
+                        <img src="img/个人资料/dzdp.png" alt="" style="margin-right: 15px">
+                        <span style="color:rgba(145,145,145,1);;">大众点评APP</span>
+                </li>
+                <li style="vertical-align: middle;display: flex;line-height: 35px;margin-bottom: 30px">
+                        <span style="display: inline-block;background:url('img/个人资料/xb.png') no-repeat center;width: 25px;text-align: center;color: #fff;margin-left: 15px;margin-right: 15px">4</span>
+                        <img src="img/个人资料/bibi.png" alt="" style="margin-right: 15px">
+                        <span style="color:rgba(145,145,145,1);;">哔哩哔哩视频APP</span>
+                </li>
+            </ul>
+        </div>
+        <div class="details_right" style="padding-bottom: 300px">
+            <h1 style="
+            height:18px;
+            font-size:18px;
+            font-family:MicrosoftYaHei-Bold;
+            font-weight:bold;
+            color:rgba(110,110,110,1);
+            line-height:28px;margin-top: 25px;margin-bottom: 25px;margin-left:2%;display: inline-block">小红书APP</h1>
+            <span style="display: inline-block;width: 90px;height: 30px;background: rgba(91, 173, 242, 1);color:#fff;font-size: 16px;line-height: 30px;text-align: center;margin-left: 15px">上传新版本</span>
+         
+            <div class="top_item">
+                <div class="top_1">
+                    <img src="img/个人资料/xhs.png" alt="">
+                    <span>小红书APP</span>
+                    <p><img src="img/应用介绍页/Android.png" alt=""> 适用于 Android 设备</p>
+                </div>
+                <div class="top_2">
+                    <div>
+                        <p style="color:rgba(111,111,111,1);font-weight: 400">过期时间</p>
+                        <p>2019-11-11</p>
+                    </div>
+                    <div style="margin-left: -80px">
+                        <p style="color:rgba(111,111,111,1);font-weight: 400">下载地址</p>
+                        <p>pgyer.com/I8cv</p>
+                    </div>
+                    <div>
+                        <p style="color:rgba(111,111,111,1);font-weight: 400">下载地址</p>
+                        <p>下载更多尺寸</p>
+                        <img src="img/应用介绍页/timg.png" alt="" style="position: relative;top:-45px;left: 80px">
+                    </div>
+                </div>
+
+                <h1 style="
+                height:18px;
+                font-size:18px;
+                font-family:MicrosoftYaHei-Bold;
+                font-weight:bold;
+                color:rgba(110,110,110,1);
+                line-height:28px;margin-bottom: 25px;display: inline-block">版本信息</h1>
+
+                <div class="bottom_list">
+                        <div class="bottom">
+                            <div style="width:10%;min-width: 133px;">版本</div>
+                            <div style="width:10%;min-width: 133px;">Build</div>
+                            <div style="width:10%;min-width: 133px;">大小</div>
+                            <div style="width:10%;min-width: 133px;">下载次数</div>
+                            <div style="width:10%;min-width: 133px;">更新时间</div>
+                            <div style="width:10%;min-width: 133px;">操作</div>
+                        </div>
+        
+                        <div class="bottom_item">
+                            <ul>
+                                <li style="display: flex;justify-content: space-between;width: 100%;padding: 0 20px">
+                                    <div style="width:10%;min-width: 136px;">
+                                            1.0.3 (build 3)
+                                    </div>
+                                    <div style="width:10%;min-width: 133px;">
+                                            3
+                                    </div>
+                                    <div style="width:13%;min-width: 175px;">4.4MB                                     
+                                    </div>
+                                    <div style="width:13%;min-width: 175px;">1</div>
+                                    <div style="width:10%;min-width: 133px;">2019-04-11 23:22</div>
+                                    <div style="width:10%;min-width: 133px;margin-top: -10px">
+                                        <img src="img/应用介绍页/ck.png" alt="">
+                                        <img src="img/应用介绍页/updata.png" alt="">
+                                        <img src="img/应用介绍页/bj.png" alt="">
+                                        <img src="img/应用介绍页/del.png" alt="">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+
+                <h1 style="
+                height:18px;
+                font-size:18px;
+                font-family:MicrosoftYaHei-Bold;
+                font-weight:bold;
+                color:rgba(110,110,110,1);
+                line-height:28px;margin-bottom: 25px;display: inline-block;margin-top: 20px">应用统计</h1>
+
+                <div class="dblist">
+                    <div class="leftlist">
+                            <span style="float: left;margin-left: 20px;font-size: 36px;color:rgba(145,145,145,1);margin-top: 25px">12</span>
+                            <span style="float:right;margin-right: 60px;font-size: 18px;color:rgba(122,183,235,1);;margin-top: 40px">今日12</span>
+                            <p style="position: relative;top:80px;left: -40px;color:rgba(145,145,145,1);font-size: 18px">今日下载次数</p>
+                    </div>
+                    <div class="rightlist">
+                            <span style="float: left;margin-left: 20px;font-size: 36px;color:rgba(145,145,145,1);margin-top: 25px">46</span>
+                            <span style="float:right;margin-right: 60px;font-size: 18px;color:rgba(122,183,235,1);;margin-top: 40px">总共46</span>
+                            <p style="position: relative;top:80px;left: -40px;color:rgba(145,145,145,1);font-size: 18px">总下载次数</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="db">
+        <div class="tabbar">
+            <div class="tabbar_list_1">
+                <div>
+                    <img src="img/首页/发布.png" alt="">
+                    <img src="img/首页/logoz.png" alt="" style="margin-left:20px">
+                </div>
+            </div>
+
+                <ul class="tabbar_list_2">
+                    <li>
+                        <h6>产品发布</h6>
+                        <img src="img/首页/yjjx.png" alt="" style="position: relative;top:-15px">
+                        <p>发布APP</p>
+                        <p>内测分发</p>
+                    </li>
+                    <li>
+                        <h6>我的应用</h6>
+                        <img src="img/首页/yjjx.png" alt="" style="position: relative;top:-15px">
+                        <p>发布新应用</p>
+                        <p>管理我的应用</p>
+                        <p>应用更新</p>
+                    </li>
+                    <li style="width:50%">
+                        <h6>联系我们</h6>
+                        <img src="img/首页/yjjx.png" alt="" style="position: relative;top:-15px">
+                        <p>QQ:598615735</p>
+                        <p>邮箱：YIZHOUFENFA@163.COM</p>
+                        <p>地址：湖南省天心区黑石铺路184号</p>
+                    </li>
+                </ul>
+        </div>
+    </div>
+
+    <script>
+        $(".xl").hide()
+        $(".gr_item_2").click(
+            function(){
+                 if($(".xl").css("display")=="none"){
+                     $(".xl").show()
+                 }else{
+                     $(".xl").hide()
+                }
+            }
+        )
+    </script>
+
+</body>
+</html>

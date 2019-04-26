@@ -1,0 +1,90 @@
+.top{
+    width: 97%;
+    max-width: 1607px;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px
+}
+.top1{
+    padding-top: 17px;
+    padding-left: 8px;
+    display: flex;
+    width: 96%;
+    box-shadow:0px 0px 8px 0px rgba(179,179,179,0.7);
+    background: #fff;
+    flex-wrap: wrap;
+    margin: auto;
+    position: relative
+}
+.top1_1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.top2{
+    background: url("img/我的应用页/1.png") no-repeat;
+    background-size: 100% 100%;
+    width: 49%;
+    text-align: center;
+}
+.top2 h1,.top3 h1{
+    margin-top: 50%;
+    margin-bottom: 25%;
+    font-size:10px;
+    font-weight:400;
+color:rgba(51,51,51,1);
+}
+.top2 p,.top3 p{
+    font-size:16px;
+    font-weight:400;
+    color:rgba(180,180,180,1);
+    margin-top: 10px
+}
+.top3{
+    background: url("img/我的应用页/2.png") no-repeat;
+    background-size: 100% 100%;
+    width: 49%;
+    text-align: center;
+}
+.bottom{
+    display: flex;
+    line-height: 58px;
+    width: 98%;
+    padding-left: 2.5%;
+    margin: auto;
+    max-width: 1607px;
+    justify-content: space-between;
+    text-align: center
+}
+.bottom div{
+    font-size: 7px
+}
+.bottom_item ul li div{
+    text-align: center;
+    font-size: 8px
+}
+.bottom_item ul li div img{
+    position: relative;
+    top:10px;
+    margin-right: 5px
+}
+.bottom_list{
+    background: url("img/我的应用页/z1.png") no-repeat;
+    background-size: 100% 100%;
+    color:rgba(145,145,145,1);   
+    width: 97%;
+    margin: auto;
+    max-width: 1607px;
+}
+.xl{
+    width: 70%;
+    background: #E6E6E6;
+    height:100%;
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: 10
+}
+.grheader{
+    position: relative;
+}

@@ -1,0 +1,53 @@
+.suss{
+    width: 74%;
+    margin: auto;
+    border:1px solid #c8c8c8;
+    text-align: center;
+    padding-bottom: 25px
+}
+.suss_box{
+    margin: auto; 
+    margin-top: 44px  ;
+    margin-bottom: 163px
+}
+.suss p{
+    font-size: 7px;
+    color:#ABABAB;
+    margin-bottom: 10px
+}
+.span1{
+    width:3%;
+    height: 8px;
+    background:rgba(200,200,200,1);
+    border-radius:50%;
+}
+.span2{
+    width:23.6%;
+    height:1.5px;
+background:rgba(200,200,200,1);
+}
+.span3{
+    width:6%;;
+    height: 15px;
+background:rgba(58,153,253,1);
+border-radius:50%;
+color: #fff;
+line-height: 15px;
+font-size: 9px
+}
+.suss_box1{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+.suss_box1 div{
+    margin: auto 10px
+}
+.db{
+    position: absolute;
+    bottom: 0
+}

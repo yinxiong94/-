@@ -1,0 +1,20 @@
+.suss{
+    width: 74%;
+    margin: auto;
+    border:1px dashed #111;
+    text-align: center
+}
+.suss_box{
+    max-width: 1200px;
+    margin: auto; 
+    margin-top: 75px  ;
+}
+.suss p{
+    font-size: 7px;
+    color:#ABABAB;
+    margin-bottom: 10px
+}
+.db{
+    position:fixed;
+    bottom: 0;
+}

@@ -1,0 +1,58 @@
+.top_1{
+    
+    width: 97%;
+    margin: auto;
+    padding-top: 18px;}
+.top_item{
+    width: 98%;
+    margin: auto;
+    height: 249px;
+   
+}
+.top_1 p{
+    left: 40px;
+    position: relative;
+    top: -19px;
+    font-size: 14px;
+    color:rgba(179,179,179,1);
+}
+.top_1 span{
+    position: relative;
+    top:-20px;
+}
+.top_2{
+    display: flex;
+    justify-content: space-around;
+    width: 98%
+}
+.top_2 div p{
+    font-size:8px;
+    color:rgba(145,145,145,1);
+    margin-top: 10px
+}
+.top_2 div{
+    text-align: center
+}
+.bottom_list{
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px
+}
+
+.leftlist{
+    background: url("img/应用介绍页/blue.png") no-repeat;
+    width: 96%;
+    height: 70px;
+    margin-right: 75px
+}
+.rightlist{
+    background: url("img/应用介绍页//ls.png") no-repeat;
+    width: 96%;
+    height: 70px;
+}
+.dblist{
+    display: flex
+}
+.bottom{
+    line-height: 28px
+}

@@ -48,30 +48,35 @@
                     <span>*</span>
                     姓名
                 </p>
-                <input type="text" placeholder="请输入您的姓名">
+                <input type="text" placeholder="请输入您的姓名" id="name">
+                
             </div>
+            <p style="position: absolute;left: 22%;color:red" class="show">*格式不正确</p>
             <div class="phone">
                 <p>
                     <span>*</span>
                     手机号码
                 </p>
-                <input type="text" placeholder="请输入您的手机号码">
+                <input type="text" placeholder="请输入您的手机号码" id="phone">
                 <span style="display: inline-block;border: 1px dashed #999;line-height: 32px;margin-left: 20px;padding: 0 8px">修改</span>
             </div>
+            <p style="position: absolute;left: 22%;color:red" class="show">*格式不正确</p>
             <div class="maill">
                 <p>
                     <span>*</span>
                     邮箱地址
                 </p>
-                <input type="text" placeholder="请填写邮箱地址">
+                <input type="email" placeholder="请填写邮箱地址" id="email">
             </div>
+            <p style="position: absolute;left: 22%;color:red" class="show">*格式不正确</p>
             <div class="maill">
                 <p>
                     <span>*</span>
                     身份证号码
                 </p>
-                <input type="text" placeholder="请填写身份证号码">
+                <input type="text" placeholder="请填写身份证号码" id="hkid">
             </div>
+            <p style="position: absolute;left: 22%;color:red" class="show">*格式不正确</p>
             <div class="maill">
                 <p>
                     <span>*</span>
@@ -128,5 +133,7 @@
                 </ul>
         </div>
     </div>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>

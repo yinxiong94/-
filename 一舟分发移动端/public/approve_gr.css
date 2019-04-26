@@ -1,0 +1,112 @@
+.suss{
+    width: 98%;
+    margin: auto;
+    border:1px dashed rgba(200,200,200,1);
+    text-align: center;
+    position: relative
+}
+.suss_box{
+    margin: auto; 
+    margin-top: 44px  ;
+    margin-bottom: 40px
+}
+.suss p{
+    font-size: 7px;
+    color:#ABABAB;
+    margin-bottom: 10px
+}
+.span1{
+    width:3%;
+    height: 8px;
+    background:rgba(200,200,200,1);
+    border-radius:50%;
+}
+.span2{
+    width:23.6%;
+    height:1.5px;
+background:rgba(200,200,200,1);
+}
+.span3{
+    width:6%;;
+    height: 15px;
+background:rgba(58,153,253,1);
+border-radius:50%;
+color: #fff;
+line-height: 15px;
+font-size: 9px;
+text-align: center
+}
+.suss_box1{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+.suss_box1 div{
+    margin: auto 10px
+}
+.jg{
+    background: url("img/认证/jx3.png") no-repeat;
+    width: 98%;
+    margin: auto;
+    line-height: 35px;
+    text-align: left;
+    vertical-align:top
+}
+.jg span{
+    font-size: 7px
+}
+.jg img{
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-left: 10px;
+    width: 4%
+}
+.name{
+    display: flex;
+    width: 98%;
+    margin: auto;
+    margin-top: 20px
+}
+.name input,.phone input,.maill input{
+    width: 65%;
+    font-size: 7px;
+    padding-left: 20px;
+    border:1px dashed #999
+}
+.name p,.phone p,.maill p{
+    width: 22%;
+    text-align: left;
+    color:#333333;
+    font-size: 8px
+}
+.name p span,.phone p span,.maill p span{
+    color:red;
+    display: inline-block;
+}
+.phone{
+    display: flex;
+    width: 98%;
+    margin: auto;
+    margin-top: 30px
+}
+.maill{
+    display: flex;
+    width: 98%;
+    margin: auto;
+    margin-top: 45px 
+}
+.maill div p{
+    width: 100%
+}
+.clearfix{
+    clear: both;
+    content: '';
+    display: block
+}
+.red{
+    border:1px dashed red !important
+}

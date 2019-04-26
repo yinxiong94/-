@@ -1,0 +1,29 @@
+.xm{
+    display:flex;
+    width: 98%;
+    justify-content: space-around;
+    max-width: 1396px;
+    border:1px dashed rgba(110,110,110,1);
+    margin-left: 1%;
+    color:rgba(110,110,110,1);
+    padding: 8px 0;
+}
+.xm div{
+    text-align: center;
+    font-size: 7px
+}
+.xmdetails ul li div{
+    text-align: center;
+    font-size: 7px
+}
+.xmdetails ul li div img{
+    position: relative;
+    top:10px
+}
+.xmdetails{
+    border:1px dashed rgba(110,110,110,1);
+    width: 98%;
+    margin: auto;
+    padding-bottom: 100px;
+    border-top: 0
+}

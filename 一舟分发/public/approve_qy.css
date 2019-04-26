@@ -4,6 +4,7 @@
     border:1px dashed rgba(200,200,200,1);
     text-align: center;
     min-width: 662px;
+    position: relative;
 }
 .suss_box{
     width:62.5%;
@@ -100,4 +101,7 @@ line-height: 30px
 }
 .maill div p{
     width: 100%
+}
+.red{
+    border: 1px dashed red !important
 }

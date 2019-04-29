@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="myapp.css">
+    <link rel="stylesheet" href="css/application.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="logo">
+        <img src="img/logo.png" alt="" />
+      </div>
+      <div class="menu" id="xl">
+        <img src="img/menu.png" alt="" />
+      </div>
+    </div>
+    
+    <div class="xl" id="xl2">
+      <div style="position: relative;background: #fff">
+          <img src="img/我的应用页/687.png" alt="" width="10%" style="margin-top:10px;margin-left: 10px">
+          <span style="position: absolute;top:15px;font-size: 10px;color:#919191;margin-left: 10px">13245615</span>
+          <span style="position: absolute;right: 20px;top:13px;font-size: 10px;display: inline-block;padding: 2px 5px;background: #5BADF2;color:#fff;border-radius: 3px" id="tc">退出</span>
+      </div>
+      <div style="padding:15px 20px;border-bottom: 1px solid #ccc">
+          <img src="img/个人资料/index.png" alt="" style="width:6%">
+          <span style="position: relative;top:0px;font-size: 9px;color:#5BADF2">首页</span>
+      </div>
+      <div style="padding:15px 20px;border-bottom: 1px solid #ccc">
+          <img src="img/个人资料/sc.png" alt="" style="width:6%">
+          <span style="position: relative;top:0px;font-size: 9px;color:#5BADF2">发布</span>
+      </div>
+      <div style="padding:15px 20px;border-bottom: 1px solid #ccc">
+          <img src="img/个人资料/myapp.png" alt="" style="width:6%">
+          <span style="position: relative;top:0px;font-size: 9px;color:#5BADF2">我的应用</span>
+      </div>
+</div>
+
+<div class="xl1" id="xl1">
+  <div style="position: relative;background: #fff">
+      <button style="border-right:1px solid #ccc" id="dl">登录</button>
+      <button id="logo">注册</button>
+  </div>
+  <div style="padding:15px 20px;border-bottom: 1px solid #ccc;padding-top: 55px">
+      <img src="img/个人资料/index.png" alt="" style="width:6%">
+      <span style="position: relative;top:0px;font-size: 9px;color:#5BADF2">首页</span>
+  </div>
+  <div style="padding:15px 20px;border-bottom: 1px solid #ccc">
+      <img src="img/个人资料/sc.png" alt="" style="width:6%">
+      <span style="position: relative;top:0px;font-size: 9px;color:#5BADF2">发布</span>
+  </div>
+  <div style="padding:15px 20px;border-bottom: 1px solid #ccc">
+      <img src="img/个人资料/myapp.png" alt="" style="width:6%">
+      <span style="position: relative;top:0px;font-size: 9px;color:#5BADF2">我的应用</span>
+  </div>
+</div>
+
+    
+    <div class="banxin">
+      <div class="mian">
+        <div class="app">
+          <div class="left">
+            <div class="left_p">
+              <p>安卓应用</p>
+            </div>
+          </div>
+          <div class="right_app">
+            <p>APP ID <span>1108762215</span></p>
+            <p class="key">APP KEY <span>S4QyQCGxFwCFTAVX</span></p>
+          </div>
+        </div>
+
+        <div class="information">
+          <h5>基本信息</h5>
+          <div class="information_form">
+            <div class="information_name">
+              *<span>应用名称</span>
+              <input
+                class="name"
+                type="text"
+                placeholder="应用名称最多输入20个汉字"
+              />
+              <em>输入格式错误!</em>
+            </div>
+            <div class="informatio_game">
+              <div class="game_left">*<span>应用类型</span></div>
+              <div class="game_right">
+                <div class="game">
+                  <a class="yuan"></a>
+                  游戏
+                </div>
+                <div class="Software">
+                  <a class="yuan"></a>
+                  软件
+                </div>
+              </div>
+            </div>
+            <div class="informatio_Software">
+              <div class="left">*<span>应用子分类</span></div>
+              <div class="right">
+                <select name="" id="right_bei">
+                  <option value="请选择子分类">请选择子分类</option>
+                </select>
+              </div>
+            </div>
+            <div class="informatio_brief">
+              <div class="left">*<span>应用子分类</span></div>
+              <div class="right">
+                <div class="chebox" contenteditable="true"></div>
+              </div>
+            </div>
+            <div id="informatio_v">
+              <div class="left">*<span>应用子分类</span></div>
+              <div class="right">
+                <input type="text" placeholder="一句话简介（5至15个汉字）" />
+              </div>
+              <em>输入格式错误!</em>
+            </div>
+            <div id="brief" class="brief">
+              <div class="left">*<span>应用子分类</span></div>
+              <div class="right">
+                <input type="text" placeholder="一句话简介（5至15个汉字）" />
+              </div>
+              <em>输入格式错误!</em>
+            </div>
+          </div>
+        </div>
+        <div class="information_1">
+          <h5>安装包</h5>
+          <div class="information_1_app">
+            <div class="information_1_left">*<span>应用子分类</span></div>
+            <div class="information_1_right">
+              <div class="information_1_img">
+                <img src="img/jh.png" alt="" />
+              </div>
+              <span>（限100M以内安装包，参数）</span>
+            </div>
+          </div>
+          <div class="information_1_app">
+            <div class="information_1_left">*<span>应用图标</span></div>
+            <div class="information_1_right">
+              <div class="information_1_img">
+                <img src="img/jh.png" alt="" />
+              </div>
+              <span>（尺寸160*160，大小200K以内）</span>
+            </div>
+          </div>
+          <div class="information_1_app">
+            <div class="information_1_left"><span> 应用截图</span></div>
+            <div class="information_1_right">
+              <div class="information_1_img">
+                <img src="img/jh.png" alt="" />
+              </div>
+              <span>
+                （请上传2-5张截图（尺寸保持一致），单张图片不超过1M。截图不能小于320*480像素，推荐480*800像素。JPG、PNG格式)
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="information_1">
+          <h5>版权证明</h5>
+          <div class="information_1_app">
+            <div class="information_1_left"><span>版权证明</span></div>
+            <div class="information_1_right">
+              <div class="information_1_img">
+                <img src="img/jh.png" alt="" />
+              </div>
+              <span>
+                （软件著作权证、商标注册证、ICP经营许可证或其他行业相关的经营许可证）
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Release">
+      <div class="Release_box">
+        <div class="Release_left fl">
+          返回
+        </div>
+        <div class="Release_right fr">
+          发布
+        </div>
+      </div>
+    </div>
+
+    <div class="db">
+      <div class="tabbar">
+          <div class="tabbar_list_1">
+              <div>
+                  <img src="img/首页/logoz.png" alt="" style="margin-left:20px">
+              </div>
+          </div>
+
+              <ul class="tabbar_list_2">
+                  <li>
+                      <h6>产品发布</h6>
+                      <img src="img/首页/yjjx.png" alt="" style="position: relative;top:-15px">
+                      <p>发布APP</p>
+                      <p>内测分发</p>
+                  </li>
+                  <li>
+                      <h6>我的应用</h6>
+                      <img src="img/首页/yjjx.png" alt="" style="position: relative;top:-15px">
+                      <p>发布新应用</p>
+                      <p>管理我的应用</p>
+                      <p>应用更新</p>
+                  </li>
+                  <li style="width:50%">
+                      <h6>联系我们</h6>
+                      <img src="img/首页/yjjx.png" alt="" style="position: relative;top:-15px">
+                      <p>QQ:598615735</p>
+                      <p>邮箱：YIZHOUFENFA@163.COM</p>
+                      <p>地址：湖南省天心区黑石铺路184号</p>
+                  </li>
+              </ul>
+      </div>
+      <a style="text-align: center;
+          font-size: 7px;
+          color: #ccc;
+          display: block;
+          text-decoration: none;
+          margin-top: -10px;padding-bottom: 10px" href="http://www.miibeian.gov.cn/">备案号：沪ICP备17055566号-4</a>
+  </div>
+
+
+    <!-- <div class="footer">
+      <div class="banxin">
+        <div class="footer_left">
+          <div class="footer_logo">
+            <img src="img/vx_logo.png" alt="" />
+          </div>
+          <div class="footer_title">
+            <img src="img/yyffw.png" alt="" />
+            <p>yizhoufenfa.com</p>
+          </div>
+        </div>
+        <div class="footer_right">
+          <ul>
+            <li class="list">
+              <h6>产品发布</h6>
+              <h5></h5>
+              <p><a>发布APP</a></p>
+              <p><a>内测分发</a></p>
+            </li>
+            <li class="list">
+              <h6>产品发布</h6>
+              <h5></h5>
+              <p><a>发布新应用</a></p>
+              <p><a>管理我的应用</a></p>
+              <p><a>应用更新</a></p>
+            </li>
+            <li class="list_2">
+              <h6>联系我们</h6>
+              <h5></h5>
+              <p><a>QQ： 598614735</a></p>
+              <p><a>邮箱：yizhoufenfa@163.com</a></p>
+              <p><a href="#">地址：湖南省长沙市天心区黑石铺路184号</a></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> -->
+    <script src="js/sin.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

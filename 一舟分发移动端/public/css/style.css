@@ -1,0 +1,146 @@
+.nav {
+  width: 100%;
+  height: 44px;
+  overflow: hidden;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+}
+.nav .logo {
+  width: 73px;
+  height: 27px;
+  margin-left: 7px;
+  margin-top: 8px;
+}
+.nav .logo img {
+  width: 100%;
+  height: 27px;
+}
+.nav .menu {
+  width: 19px;
+  height: 19px;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+.nav .menu img {
+  width: 100%;
+  height: 19px;
+}
+.msgBox {
+  width: 100%;
+  height: 22px;
+  display: flex;
+  padding: 0 4px 0 4px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin-top: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.msgBox h4 {
+  font-size: 13px;
+  line-height: 22px;
+}
+.msgBox .msgBox_right {
+  font-size: 7px;
+  line-height: 22px;
+  color: #929292;
+}
+.service {
+  width: 100%;
+  padding-bottom: 80px;
+}
+.service .service_file {
+  width: 96%;
+  height: 352px;
+  margin: 0 auto;
+  position: relative;
+}
+.service .service_file .service_img {
+  width: 30.6%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.service .service_file .service_img img {
+  width: 100%;
+}
+.service .service_file .service_img .service_title {
+  width: 300px;
+  text-align: center;
+  height: 32px;
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.service .service_file .service_img .service_title p {
+  font-size: 12px;
+  color: #919191;
+}
+.service .service_file .service_img .service_title p span {
+  color: red;
+}
+.footer {
+  width: 100%;
+  height: 129px;
+  display: flex;
+  background-color: #000;
+}
+.footer .footer_left {
+  width: 20.3%;
+  padding: 16px 0 0 11px;
+}
+.footer .footer_left img {
+  width: 88.9%;
+  height: 33px;
+}
+.footer .footer_right {
+  flex: 1;
+  color: #fff;
+  padding-top: 16px;
+}
+.footer .footer_right ul {
+  display: flex;
+  width: 100%;
+  font-size: 12px;
+}
+.footer .footer_right ul .footer_list {
+  width: 30%;
+}
+.footer .footer_right ul .footer_list h5 {
+  font-size: 14px;
+}
+.footer .footer_right ul .footer_list span {
+  display: block;
+  height: 2px;
+  width: 32px;
+  background-color: #3a99fd;
+  margin: 2px 0 2px 0;
+}
+.footer .footer_right ul .footer_list a {
+  display: block;
+  color: #fff;
+  margin-bottom: 4px;
+  font-size: 8px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+li {
+  list-style: none;
+}
+.clearfix {
+  clear: both;
+  content: '';
+  display: block;
+}

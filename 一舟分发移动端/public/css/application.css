@@ -1,0 +1,538 @@
+.nav {
+  width: 100%;
+  height: 44px;
+  overflow: hidden;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+  display: flex;
+  justify-content: space-between;
+}
+.nav .logo {
+  width: 73px;
+  margin-left: 7px;
+  margin-top: 8px;
+}
+.nav .logo img {
+  width: 100%;
+  height: 27px;
+}
+.nav .menu {
+  width: 19px;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+.nav .menu img {
+  width: 100%;
+  height: 19px;
+}
+.banxin {
+  width: 100%;
+}
+.banxin .mian {
+  width: 90%;
+  max-width: 768px;
+  background: #efefef;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  padding: 0 6px;
+  margin: 0 auto;
+}
+.banxin .mian .app {
+  margin-top: 30px;
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+  border: 1px dashed #000;
+}
+.banxin .mian .app .left {
+  width: 21%;
+  border-right: 1px solid #bfbfbf;
+  margin-top: 16px;
+  background: url('../img/azhuo.png') no-repeat center top;
+  position: relative;
+  text-align: center;
+  margin-bottom: 16px;
+  padding-right: 16px;
+}
+.banxin .mian .app .left .left_p {
+  width: 100%;
+  position: absolute;
+  bottom: -6%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.banxin .mian .app .left .left_p p {
+  font-size: 13px;
+  text-align: center;
+}
+.banxin .mian .app .right_app {
+  width: 100%;
+  padding: 6px 0 6px 8px;
+}
+.banxin .mian .app .right_app p {
+  font-size: 16px;
+  color: #858585;
+  font-weight: bold;
+}
+.banxin .mian .app .right_app p span {
+  color: #858585;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 6px;
+}
+.banxin .mian .app .right_app .key {
+  margin-top: 38px;
+}
+.banxin .mian .app .right_id {
+  flex: 1;
+}
+.banxin .mian .app .right_id p {
+  font-size: 20px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #858585;
+}
+.banxin .mian .app .right_id .id {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.banxin .mian .information {
+  background-color: #fff;
+  padding: 16px 10px 0 10px;
+  margin-top: 30px;
+  width: 100%;
+  border: 1px dashed #000;
+  box-sizing: border-box;
+}
+.banxin .mian .information h5 {
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #333333;
+  line-height: 28px;
+}
+.banxin .mian .information .information_form {
+  width: 100%;
+  margin-top: 8px;
+  height: 552px;
+}
+.banxin .mian .information .information_form .information_name {
+  width: 100%;
+  padding-left: 6px;
+  font-size: 18px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #ff4040;
+  line-height: 28px;
+  position: relative;
+  display: flex;
+}
+.banxin .mian .information .information_form .information_name span {
+  flex: 1;
+  color: #000;
+  margin-right: 16px;
+  font-size: 13px;
+}
+.banxin .mian .information .information_form .information_name .name {
+  width: 72%;
+  height: 22px;
+  border: 1px dashed #000;
+}
+.banxin .mian .information .information_form .information_name input {
+  color: #b4b4b4;
+  font-size: 13px;
+}
+.banxin .mian .information .information_form .information_name em {
+  font-style: normal;
+  position: absolute;
+  top: 80%;
+  left: 28%;
+  color: red;
+  font-size: 14px;
+  display: none;
+}
+.banxin .mian .information .information_form .informatio_game {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+}
+.banxin .mian .information .information_form .informatio_game .game_left {
+  float: left;
+  padding-left: 6px;
+  flex: 1;
+  font-size: 13px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #ff4040;
+  line-height: 47px;
+}
+.banxin .mian .information .information_form .informatio_game .game_left span {
+  color: #000;
+}
+.banxin .mian .information .information_form .informatio_game .game_right {
+  width: 70%;
+  display: flex;
+}
+.banxin .mian .information .information_form .informatio_game .game_right .game {
+  width: 40%;
+  line-height: 42px;
+  font-size: 13px;
+}
+.banxin .mian .information .information_form .informatio_game .game_right .game .yuan {
+  width: 14px;
+  height: 14px;
+  border-radius: 11px;
+  float: left;
+  margin-top: 16px;
+  border: 1px solid #ccc;
+  margin-right: 8px;
+  box-sizing: border-box;
+}
+.banxin .mian .information .information_form .informatio_game .game_right .Software {
+  flex: 1;
+  line-height: 42px;
+  font-size: 13px;
+}
+.banxin .mian .information .information_form .informatio_game .game_right .Software .yuan {
+  width: 14px;
+  height: 14px;
+  border-radius: 11px;
+  float: left;
+  margin-top: 16px;
+  border: 4px solid blue;
+  margin-right: 8px;
+  box-sizing: border-box;
+}
+.banxin .mian .information .information_form .informatio_Software {
+  font-family: MicrosoftYaHei;
+  padding-left: 6px;
+  font-weight: 400;
+  color: #ff4040;
+  margin-top: 20px;
+  display: flex;
+}
+.banxin .mian .information .information_form .informatio_Software .left {
+  width: 27%;
+  font-size: 13px;
+}
+.banxin .mian .information .information_form .informatio_Software .left span {
+  color: #000;
+}
+.banxin .mian .information .information_form .informatio_Software .right {
+  width: 40%;
+}
+.banxin .mian .information .information_form .informatio_Software .right #right_bei {
+  width: 100%;
+  padding-left: 1px;
+  color: #b4b4b4;
+  height: 22px;
+}
+.banxin .mian .information .information_form .informatio_brief {
+  margin-top: 20px;
+  display: flex;
+}
+.banxin .mian .information .information_form .informatio_brief .left {
+  flex: 1;
+  padding-left: 6px;
+  font-size: 13px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #ff4040;
+  line-height: 47px;
+}
+.banxin .mian .information .information_form .informatio_brief .left span {
+  color: #000;
+}
+.banxin .mian .information .information_form .informatio_brief .right {
+  width: 72%;
+  height: 160px;
+}
+.banxin .mian .information .information_form .informatio_brief .right .chebox {
+  height: 160px;
+  box-sizing: border-box;
+  border: 1px dashed #000;
+}
+.banxin .mian .information .information_form #informatio_v {
+  margin-top: 20px;
+  position: relative;
+  display: flex;
+}
+.banxin .mian .information .information_form #informatio_v .left {
+  float: left;
+  padding-left: 6px;
+  flex: 1;
+  font-size: 13px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #ff4040;
+  line-height: 47px;
+}
+.banxin .mian .information .information_form #informatio_v .left span {
+  color: #000;
+}
+.banxin .mian .information .information_form #informatio_v .right {
+  width: 72%;
+  padding-top: 11px;
+}
+.banxin .mian .information .information_form #informatio_v .right input {
+  border: 1px dashed #000;
+  width: 100%;
+  height: 22px;
+  color: #b4b4b4;
+  font-size: 13px;
+}
+.banxin .mian .information .information_form #informatio_v em {
+  font-style: normal;
+  position: absolute;
+  top: 80%;
+  left: 28%;
+  color: red;
+  font-size: 14px;
+  display: none;
+}
+.banxin .mian .information .information_form .brief {
+  margin-top: 20px;
+  position: relative;
+  display: flex;
+}
+.banxin .mian .information .information_form .brief .left {
+  float: left;
+  padding-left: 6px;
+  flex: 1;
+  font-size: 13px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #ff4040;
+  line-height: 47px;
+}
+.banxin .mian .information .information_form .brief .left span {
+  color: #000;
+}
+.banxin .mian .information .information_form .brief .right {
+  width: 72%;
+  padding-top: 11px;
+}
+.banxin .mian .information .information_form .brief .right input {
+  border: 1px dashed #000;
+  width: 100%;
+  height: 22px;
+  color: #b4b4b4;
+  font-size: 13px;
+}
+.banxin .mian .information .information_form .brief em {
+  font-style: normal;
+  position: absolute;
+  top: 80%;
+  left: 28%;
+  color: red;
+  font-size: 14px;
+  display: none;
+}
+.banxin .mian .information_1 {
+  width: 100%;
+  border: 1px dashed #000;
+  box-sizing: border-box;
+  margin-top: 15px;
+  background-color: #fff;
+  padding: 6px 6px 0 6px;
+}
+.banxin .mian .information_1 h5 {
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #333333;
+  line-height: 28px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.banxin .mian .information_1 .information_1_app {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  display: flex;
+}
+.banxin .mian .information_1 .information_1_app .information_1_left {
+  font-size: 13px;
+  margin-right: 10px;
+}
+.banxin .mian .information_1 .information_1_app .information_1_left span {
+  color: #000;
+}
+.banxin .mian .information_1 .information_1_app .information_1_right {
+  width: 72%;
+}
+.banxin .mian .information_1 .information_1_app .information_1_right .information_1_img {
+  margin-left: 8px;
+  width: 36%;
+}
+.banxin .mian .information_1 .information_1_app .information_1_right .information_1_img img {
+  width: 100%;
+}
+.banxin .mian .information_1 .information_1_app .information_1_right span {
+  width: 207px;
+  font-size: 12px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #939393;
+}
+.banxin .mian .two {
+  padding-bottom: 10px;
+}
+.Release {
+  width: 100%;
+  height: 130px;
+  border: 1px solid #ccc;
+  background-color: #d4d4d4;
+  position: relative;
+}
+.Release .Release_box {
+  width: 36%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  display: flex;
+}
+.Release .Release_box .Release_left {
+  text-align: center;
+  flex: 1;
+  background-color: #fff;
+  border: 1px dashed #000;
+  padding: 8px 9px;
+  box-sizing: border-box;
+  font-size: 14px;
+  cursor: pointer;
+}
+.Release .Release_box .Release_right {
+  text-align: center;
+  flex: 1;
+  background-color: #3a99fd;
+  padding: 8px 9px;
+  box-sizing: border-box;
+  border: 1px dashed #000;
+  margin-left: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+.Release .Release_box .box-mar {
+  margin-left: 90px;
+}
+.footer {
+  width: 100%;
+  background-color: #2f2f2f;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 100px;
+}
+.footer .banxin {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.footer .banxin .footer_left {
+  width: 378px;
+  height: 300px;
+  padding-top: 24px;
+  display: flex;
+}
+.footer .banxin .footer_left .footer_logo {
+  width: 77px;
+  height: 84px;
+}
+.footer .banxin .footer_left .footer_logo img {
+  width: 100%;
+  height: 84px;
+}
+.footer .banxin .footer_left .footer_title {
+  width: 136px;
+  height: 32px;
+  margin-top: 14px;
+  margin-left: 10px;
+}
+.footer .banxin .footer_left .footer_title img {
+  width: 100%;
+  height: 32px;
+}
+.footer .banxin .footer_left .footer_title p {
+  color: #fff;
+}
+.footer .banxin .footer_right {
+  width: 588px;
+}
+.footer .banxin .footer_right ul {
+  width: 100%;
+}
+.footer .banxin .footer_right ul .list {
+  float: left;
+  width: 25%;
+  margin-top: 28px;
+}
+.footer .banxin .footer_right ul .list h6 {
+  font-size: 16px;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+}
+.footer .banxin .footer_right ul .list h5 {
+  width: 40px;
+  height: 2px;
+  border-bottom: 2px solid #3a99fd;
+}
+.footer .banxin .footer_right ul .list p {
+  margin: 6px 0;
+}
+.footer .banxin .footer_right ul .list_2 {
+  float: left;
+  width: 46%;
+  margin-top: 28px;
+}
+.footer .banxin .footer_right ul .list_2 h6 {
+  font-size: 16px;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+}
+.footer .banxin .footer_right ul .list_2 h5 {
+  width: 40px;
+  height: 2px;
+  border-bottom: 2px solid #3a99fd;
+}
+.footer .banxin .footer_right ul .list_2 p {
+  margin: 6px 0;
+}
+.footer .banxin .footer_right ul .list_2 p a {
+  color: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.blue {
+  color: blue;
+}
+.h5 {
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #333333;
+  line-height: 28px;
+}
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+body {
+  background-color: #efefef;
+}

@@ -1,0 +1,298 @@
+.nav {
+  width: 100%;
+  height: 44px;
+  overflow: hidden;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+  display: flex;
+  justify-content: space-between;
+}
+.nav .logo {
+  width: 73px;
+  margin-left: 7px;
+  margin-top: 8px;
+}
+.nav .logo img {
+  width: 100%;
+  height: 27px;
+}
+.nav .menu {
+  width: 19px;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+.nav .menu img {
+  width: 100%;
+  height: 19px;
+}
+.banxin {
+  width: 100%;
+}
+.banxin .main {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  padding-bottom: 200px
+}
+.banxin .main .mian_reg {
+  width: 90%;
+  border: 1px solid #c8c8c8;
+  padding: 0 10px;
+  margin: 0 auto;
+  margin-bottom: 53px;
+  margin-top: 22px;
+  padding-bottom: 20px
+}
+.banxin .main .mian_reg .mian_logo {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 86%;
+  margin-top: 15px;
+  display: flex;
+}
+.banxin .main .mian_reg .mian_logo .logo_left {
+  width: 18.6%;
+  margin-left: 43px;
+}
+.banxin .main .mian_reg .mian_logo .logo_left img {
+  width: 100%;
+}
+.banxin .main .mian_reg .mian_logo .logo_right {
+  padding-top: 8px;
+  margin-left: 10px;
+  width: 33%;
+}
+.banxin .main .mian_reg .mian_logo .logo_right img {
+  width: 100%;
+}
+.banxin .main .mian_reg .mian_xys {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 8px;
+  display: flex;
+  box-sizing: border-box;
+}
+.banxin .main .mian_reg .mian_xys .left {
+  width: 20%;
+  margin-right: 10px;
+}
+.banxin .main .mian_reg .mian_xys .left img {
+  width: 100%;
+}
+.banxin .main .mian_reg .mian_xys .text {
+  flex: 1;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #333333;
+}
+.banxin .main .mian_reg .mian_xys .right {
+  width: 20%;
+}
+.banxin .main .mian_reg .mian_xys .right img {
+  width: 100%;
+}
+.banxin .main .mian_reg .mian_id {
+  width: 100%;
+  margin-top: 7px;
+}
+.banxin .main .mian_reg .mian_id a {
+  color: #3a99fd;
+  margin-left: 10px;
+  font-size: 12px;
+}
+.banxin .main .mian_reg .mian_id a span {
+  color: #c8c8c8;
+  margin-left: 10px;
+}
+.banxin .main .mian_reg .mian_id .name {
+  margin: 8px 0 15px;
+  width: 100%;
+  position: relative;
+}
+.banxin .main .mian_reg .mian_id .name input {
+  width: 100%;
+  height: 27px;
+  padding-left: 32px;
+  box-sizing: border-box;
+  border: 1px solid #c8c8c8;
+}
+.banxin .main .mian_reg .mian_id .name .name_img {
+  position: absolute;
+  width: 17px;
+  top: 4px;
+  left: 10px;
+}
+.banxin .main .mian_reg .mian_id .name .name_img img {
+  width: 100%;
+}
+.banxin .main .mian_reg .mian_id .name .name_tips {
+  font-size: 12px;
+  color: red;
+  display: none;
+}
+.banxin .main .mian_reg .mian_id .Mobile {
+  margin: 8px 0 15px;
+  width: 100%;
+  position: relative;
+}
+.banxin .main .mian_reg .mian_id .Mobile input {
+  width: 100%;
+  height: 27px;
+  padding-left: 32px;
+  box-sizing: border-box;
+  border: 1px solid #c8c8c8;
+}
+.banxin .main .mian_reg .mian_id .Mobile .name_img {
+  position: absolute;
+  width: 13px;
+  top: 4px;
+  left: 10px;
+}
+.banxin .main .mian_reg .mian_id .Mobile .name_img img {
+  width: 100%;
+}
+.banxin .main .mian_reg .mian_id .Mobile .name_tips {
+  font-size: 12px;
+  color: red;
+  display: none;
+  font-style: normal;
+}
+.banxin .main .mian_reg .mian_id .Verification {
+  margin-bottom: 15px;
+  display: flex;
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
+}
+.banxin .main .mian_reg .mian_id .Verification input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 27px;
+  color: #c8c8c8;
+  font-family: MicrosoftYaHei;
+  font-size: 12px;
+  padding-left: 32px;
+  border: 1px solid #c8c8c8;
+}
+.banxin .main .mian_reg .mian_id .Verification span {
+  width: 30%;
+  line-height: 27px;
+  height: 27px;
+  background-color: #348efe;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 8px;
+}
+.banxin .main .mian_reg .mian_id .Verification .Verification_img {
+  position: absolute;
+  width: 17px;
+  top: 4px;
+  left: 10px;
+}
+.banxin .main .mian_reg .mian_id .Verification .Verification_img img {
+  width: 100%;
+}
+.banxin .main .mian_reg .mian_id .psword {
+  margin: 18px 0 15px;
+  width: 100%;
+  position: relative;
+}
+input{
+  font-size: 8px
+}
+.banxin .main .mian_reg .mian_id .psword input {
+  width: 100%;
+  height: 27px;
+  padding-left: 32px;
+  box-sizing: border-box;
+  border: 1px solid #c8c8c8;
+}
+.banxin .main .mian_reg .mian_id .psword .name_img {
+  position: absolute;
+  width: 17px;
+  top: 4px;
+  left: 10px;
+}
+.banxin .main .mian_reg .mian_id .psword .name_img img {
+  width: 100%;
+}
+.banxin .main .mian_reg .mian_id .psword .name_tips {
+  font-size: 12px;
+  color: red;
+  display: none;
+}
+.banxin .main .mian_reg .mian_id .psword1 {
+  margin: 8px 0 15px;
+  width: 100%;
+  position: relative;
+}
+.banxin .main .mian_reg .mian_id .psword1 input {
+  width: 100%;
+  height: 27px;
+  padding-left: 32px;
+  box-sizing: border-box;
+  border: 1px solid #c8c8c8;
+}
+.banxin .main .mian_reg .mian_id .psword1 .name_img {
+  position: absolute;
+  width: 17px;
+  top: 4px;
+  left: 10px;
+}
+.banxin .main .mian_reg .mian_id .psword1 .name_img img {
+  width: 100%;
+}
+.banxin .main .mian_reg .mian_id .psword1 .name_tips {
+  font-size: 12px;
+  color: red;
+  display: none;
+  font-style: normal;
+}
+.banxin .main .mian_reg .mian_id p {
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+.banxin .main .mian_reg .mian_id p .radio {
+  width: 10px;
+  height: 10px;
+  vertical-align: middle;
+  margin-bottom: 3px;
+}
+.banxin .main .mian_reg .mian_id .Submission {
+  width: 100%;
+  padding: 12px 1px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #348efe;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.banxin .main .mian_reg .mian_id .center {
+  text-align: center;
+  margin-top: 26px;
+}
+.banxin .main .mian_reg .mian_id .center a {
+  cursor: pointer;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.blue {
+  color: blue;
+}
+.db{
+  position:fixed;
+  bottom:0
+}

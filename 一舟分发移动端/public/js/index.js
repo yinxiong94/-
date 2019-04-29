@@ -70,4 +70,32 @@
               $(this).parent().next().hide()
           }
     })
+    window.onload = function(){
+        var obj=document.getElementById("xl");
+        var oBtn1=document.getElementById("xl2")
+      var oBtn=document.getElementById("xl1");
+      oBtn.style.display = "none";
+        oBtn1.style.display = "none";
+      obj.onclick=function(){
+    if(localStorage.length==0){oBtn.style.display="block";}
+    else {oBtn1.style.display="block";}       
+      }    
+      document.onclick=function(event){
+       var e=event || window.event;
+       var aim=e.srcElement.parentElement || e.target.parent;      
+       if(e.srcElement.parentElement){
+        var aim=e.srcElement.parentElement;
+         if(aim!=oBtn && aim!=obj && aim!=oBtn1){
+           oBtn.style.display="none";
+            oBtn1.style.display="none";
+         }
+       }else{
+         var aim=e.target.parentElement;
+         if(aim!=oBtn && aim!=obj && aim!=oBtn1){
+               oBtn.style.display="none";
+    oBtn1.style.display="none";
+         }
+       }
+      }     
+}
 })()

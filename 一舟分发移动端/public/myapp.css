@@ -85,6 +85,25 @@ color:rgba(51,51,51,1);
     right: 0;
     z-index: 10
 }
+.xl1{
+    width: 70%;
+    background: #E6E6E6;
+    height:100%;
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: 10
+}
+.xl1 button{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    border: 0;
+    background: #E6E6E6;
+    border-bottom: 1px solid #ccc;
+    color: #5BADF2;
+    font-size: 10px;
+}
 .grheader{
     position: relative;
 }

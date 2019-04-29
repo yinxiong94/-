@@ -7,17 +7,58 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="log_suss.css">
+    <link rel="stylesheet" href="myapp.css">
+    <script src="js/jquery-3.2.1.js"></script>
 </head>
 <body>
     <div class="header_list">
         <div class="left">
             <img src="img/首页/logo.png" alt="">
         </div>
-        <div class="right">
+        <div class="right" id="xl"> 
             <img src="img/首页/cd.png" alt="">
         </div>
         <div class="clearfix"></div>
     </div>
+
+    <div class="xl" id="xl2">
+        <div style="position: relative;background: #fff">
+            <img src="img/我的应用页/687.png" alt="" width="10%" style="margin-top:10px;margin-left: 10px">
+            <span style="position: absolute;top:15px;font-size: 10px;color:#919191;margin-left: 10px">13245615</span>
+            <span style="position: absolute;right: 20px;top:13px;font-size: 10px;display: inline-block;padding: 2px 5px;background: #5BADF2;color:#fff;border-radius: 3px" id="tc">退出</span>
+        </div>
+        <div style="padding:15px 20px;border-bottom: 1px solid #ccc">
+            <img src="img/个人资料/index.png" alt="" style="width:6%">
+            <span style="position: relative;top:0px;font-size: 9px;color:#5BADF2">首页</span>
+        </div>
+        <div style="padding:15px 20px;border-bottom: 1px solid #ccc">
+            <img src="img/个人资料/sc.png" alt="" style="width:6%">
+            <span style="position: relative;top:0px;font-size: 9px;color:#5BADF2">发布</span>
+        </div>
+        <div style="padding:15px 20px;border-bottom: 1px solid #ccc">
+            <img src="img/个人资料/myapp.png" alt="" style="width:6%">
+            <span style="position: relative;top:0px;font-size: 9px;color:#5BADF2">我的应用</span>
+        </div>
+</div>
+
+<div class="xl1" id="xl1">
+    <div style="position: relative;background: #fff">
+        <button style="border-right:1px solid #ccc" id="dl">登录</button>
+        <button id="logo">注册</button>
+    </div>
+    <div style="padding:15px 20px;border-bottom: 1px solid #ccc;padding-top: 55px">
+        <img src="img/个人资料/index.png" alt="" style="width:6%">
+        <span style="position: relative;top:0px;font-size: 9px;color:#5BADF2">首页</span>
+    </div>
+    <div style="padding:15px 20px;border-bottom: 1px solid #ccc">
+        <img src="img/个人资料/sc.png" alt="" style="width:6%">
+        <span style="position: relative;top:0px;font-size: 9px;color:#5BADF2">发布</span>
+    </div>
+    <div style="padding:15px 20px;border-bottom: 1px solid #ccc">
+        <img src="img/个人资料/myapp.png" alt="" style="width:6%">
+        <span style="position: relative;top:0px;font-size: 9px;color:#5BADF2">我的应用</span>
+    </div>
+</div>
 
     <div class="suss_box">
         <div class="suss">
@@ -69,6 +110,6 @@
             text-decoration: none;
             margin-top: -10px;padding-bottom: 10px" href="http://www.miibeian.gov.cn/">备案号：沪ICP备17055566号-4</a>
     </div>
-
+    <script src="js/index.js"></script>
 </body>
 </html>
